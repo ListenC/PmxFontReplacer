@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>PmxFontReplacer</AssemblyName>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 修改这些 HintPath 指向你本地的 PMXEditor DLLs -->
+	<Reference Include="PEPlugin">
+      <HintPath>PmxEditor_0273\Lib\PEPlugin\PEPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="PmxEditor">
+      <HintPath>PmxEditor_0273\Lib\System\PmxEditorCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PmxEditorLib">
+      <HintPath>PmxEditor_0273\Lib\System\PmxEditorLib.dll</HintPath>
+    </Reference>
+    <Reference Include="VmdViewLib">
+      <HintPath>PmxEditor_0273\Lib\System\VmdViewLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
