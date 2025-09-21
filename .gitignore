@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# 忽略 PmxEditor_0273 目录下的所有文件
+PmxEditor_0273/**
